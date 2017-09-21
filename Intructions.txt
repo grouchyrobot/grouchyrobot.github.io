@@ -1,0 +1,2 @@
+Start server: bundle exec jekyll serve \n go to localhost:4000 
+Install a package: sudo gem install image_optim_pack
