@@ -3,8 +3,8 @@
 }
 
 .comic-page {
-  border: solid $comic-border-color $comic-border-width;
-  margin-bottom: 25px;
+  border: none;
+  margin-bottom: 50px;
 }
 
 .comic-nav {
@@ -27,7 +27,7 @@
       line-height: 30px;
       font-size: 1em;
     }
-   
+ 
 }
 
 .previous-comic {
@@ -93,17 +93,17 @@
 
 // Comic Archive Page
 .blog-archives figure {
-  border: solid;
-  border-color: $archive-border-color;
-  border-width: $archive-border-width;
+  border: none;
+  //border-color: $archive-border-color;
+  //border-width: $archive-border-width;
   margin: 5px;
 
-    &:hover {
-      border-color: $archive-hover-color; 
-    }
+  //  &:hover {
+  //    border-color: $archive-hover-color; 
+  //  }
   
     & figcaption {
-      background-color: $figcaption-background-color;
+      background-color: none; //$figcaption-background-color;
       color: $figcaption-text-color;
       text-transform: uppercase;
     }

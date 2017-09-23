@@ -1,13 +1,13 @@
 # Site settings
-title: Comical Jekyll Theme
-email: 
+title: Grouchy Robot!
+email: grouchyrobot@gmail.com 
 
-keywords: webcomic, comic
+keywords: webcomic, comic, robot, grouchy
 description: > # this means to ignore newlines until "baseurl:"
-  A webcomic theme for jekyll.
+  The Grouchy Robot site.
 
 
-baseurl: https://chrisanthropic.github.io/comical-jekyll-theme
+#baseurl: https://chrisanthropic.github.io/comical-jekyll-theme
 url: / #Leave this, change the baseurl.
 
 # Exclude our ruby stuff
@@ -30,7 +30,7 @@ permalink: /:categories/:title/
 ####CUSTOM
 
 # Set default header image
-header: yes
+header: no
 header_sm: images/banner-small.jpg
 header_med: images/banner-med.jpg
 header_large: images/banner-large.jpg
@@ -63,9 +63,9 @@ facebook_user:
 facebook_app_id:                      #enter your App ID
 facebook_locale: en_US
 facebook_page:                        #the URL of your Facebook Page
-facebook_image: /images/SHAM-logo.jpg #enter a default image (at least 200x200px) to use here for posts/pages that don't have one.
+#facebook_image: /images/SHAM-logo.jpg #enter a default image (at least 200x200px) to use here for posts/pages that don't have one.
 
 # Twitter Cards
-twitter_user: 
+twitter_user: grouchyrobot 
 twitter_card: true
-twitter_image: /images/SHAM-logo.jpg  #enter a default image (at least 200x200px) to use here for posts/pages that don't have one.
+#twitter_image: /images/SHAM-logo.jpg  #enter a default image (at least 200x200px) to use here for posts/pages that don't have one.
