@@ -1,0 +1,21 @@
+- title: "Grouchy Robot!"
+  pic: "/images/GrouchyIcon.png"
+  tagline: "A webcomic about a robot and its experiences in the world. Base on my experiences with different robots around the world."
+  blurb: "Grouchy is a robot learning new things, it like to explore the world and many times it create messes. In the furure other robots could be included.."
+  #misc: ""
+  important: "New comics every week."
+  #hr: ""
+  #amazon: ""
+  #comixology: ""
+  #drivethru: ""
+  #gumroad: ""
+  
+
+- title: "Author and Artist"
+  #pic: "/images/JC.jpg"
+  info: "Jose Capriles is a Robotic Software Engineer with experience in multiple robotic platforms. This site tries to combine both of his passions."
+  twitter: "@grouchyrobot"
+  #facebook: ""
+  #tumblr:
+  #googleplus:
+  web: "http://grouchyrobot.com"

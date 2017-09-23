@@ -1,0 +1,32 @@
+---
+layout: default
+---
+<div class="row">
+  <div>
+  {% if page.sidebar == "true" %}
+    <article class="columns small-12 large-9 comic-page">
+  {% else %}
+    <article class="columns small-12 large-offset-1 large-10 comic-page">
+  {% endif %}
+      
+	  {{ content }}
+
+      <nav class="comic-nav">
+	{% if site.posts.last.url != page.url %}
+	  {% if page.previous.url %}      
+	    <nav class="previous-comic">
+	      <a href="{{ site.baseurl }}{{ page.previous.url }}" class="icon-arrow-left hide-for-small">Previous</a>
+	      <a href="{{ site.baseurl }}{{ page.previous.url }}" class="icon-arrow-left hide-for-large"></a>
+	    </nav>
+	  {% endif %}	
+	  {% if page.next.url %}
+	    <nav class="comic-next">
+	      <a href="{{ site.baseurl }}{{page.next.url}}" class="hide-for-small">Next<span class="icon-arrow-right"></span></a>
+	      <a href="{{ site.baseurl }}{{page.next.url}}" class="hide-for-large"><span class="icon-arrow-right"></span></a>
+	    </nav>
+	  {% endif %}	
+	{% endif %}	
+      </nav>
+    </article>
+  </div>
+</div>
