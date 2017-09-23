@@ -1,0 +1,11 @@
+---
+layout: post
+title: "Hello World"
+date: 2017-09-22 23:10:45 -0700
+categories: grouchy
+#thumbnail: /images/comics/thumbs/
+facebook_type: 
+facebook_image: /images/comics/grouchy-1.png
+---
+
+{% include figure.html src="grouchy-1.png" alt="Monday.." %}
