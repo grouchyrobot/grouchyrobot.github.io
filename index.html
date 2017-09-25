@@ -17,14 +17,16 @@ sidebar: false
 	  {{ post.content }}
 	  
 	{% endfor %}
+      <center>
       <nav class="comic-nav">
 	<nav class="previous-comic">
 	  {% for post in site.posts limit:1 offset:1 %}
-	    <a href="{{ site.baseurl }}{{ post.url }}" class="icon-arrow-left hide-for-small">Previous</a>
+	    <a href="{{ site.baseurl }}{{ post.url }}" class="icon-arrow-left hide-for-small"><img src="images/previous.png" atl="Previous" style="width:100px;height:80px;border:0"></a>
 	    <a href="{{ site.baseurl }}{{ post.url }}" class="icon-arrow-left hide-for-large"></a>
 	  {% endfor %}
 	</nav>
       </nav>
+      </center>
   </article>
   </div>
   {% if page.sidebar == "true" %}
