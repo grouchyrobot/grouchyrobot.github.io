@@ -1,0 +1,11 @@
+---
+layout: post
+title: "Repeted tasks"
+date: 2017-10-08 10:10:45 -0700
+categories: grouchy
+#thumbnail: /images/comics/thumbs/
+facebook_type: 
+facebook_image: /images/comics/grouchy-3.png
+---
+
+{% include figure.html src="grouchy-3.png" alt="Repeated tasks." %}
