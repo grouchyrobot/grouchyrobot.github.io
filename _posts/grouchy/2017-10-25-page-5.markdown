@@ -1,0 +1,11 @@
+---
+layout: post
+title: "Self Awareness"
+date: 2017-10-25 23:10:45 -0700
+categories: grouchy
+#thumbnail: /images/comics/thumbs/
+facebook_type: 
+facebook_image: /images/comics/grouchy-4.png
+---
+
+{% include figure.html src="grouchy-4.png" alt="Self Awareness." %}
