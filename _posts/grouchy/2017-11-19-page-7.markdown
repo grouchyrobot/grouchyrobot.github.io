@@ -1,0 +1,11 @@
+---
+layout: post
+title: "Navigation mirror problems"
+date: 2017-11-19 22:10:45 -0800
+categories: grouchy
+#thumbnail: /images/comics/thumbs/
+facebook_type: 
+facebook_image: /images/comics/grouchy-6.png
+---
+
+{% include figure.html src="grouchy-6.png" alt="Rename Labels." %}
